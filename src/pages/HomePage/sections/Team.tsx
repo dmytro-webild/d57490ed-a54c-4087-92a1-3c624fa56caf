@@ -13,7 +13,7 @@ export default function TeamSection(): React.JSX.Element {
         tag="Staff"
         title="Meet the Expert"
         description="Our professional team is here to provide the best service in the industry."
-        members={[{"name":"Kenny Holmes","imageSrc":"https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800","role":"Master Barber"}]}
+        members={[{"name":"Kenny Holmes","imageSrc":"https://storage.googleapis.com/webild/users/user_3KYTe8q0NfqYb71TK0JX8gD1pqo/uploaded-1791736979040-w1h11og3.jpg","role":"Master Barber"}]}
         textAnimation="fade"
       />
         </SectionErrorBoundary>
