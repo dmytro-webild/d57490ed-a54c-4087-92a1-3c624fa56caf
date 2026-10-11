@@ -45,7 +45,7 @@ export default function Layout() {
       logo="KENNY'S KUTZZ"
       ctaButton={{
         text: "Book Appointment",
-        href: "#contact",
+        href: "https://booksy.com/en-us/762624_kennyskutzz_barber-shop_134633_bakersfield#ba_s=sh_1",
       }}
      navItems={navItems} />
       </SectionErrorBoundary>

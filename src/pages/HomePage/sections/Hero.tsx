@@ -15,7 +15,7 @@ export default function HeroSection(): React.JSX.Element {
         description="Experience professional barbering in Bakersfield. From classic shaves to modern fades, we ensure you leave looking your absolute best."
         primaryButton={{
             text: "Book Now",
-            href: "#contact",
+            href: "https://booksy.com/en-us/762624_kennyskutzz_barber-shop_134633_bakersfield#ba_s=sh_1",
           }}
         secondaryButton={{
             text: "Our Services",
