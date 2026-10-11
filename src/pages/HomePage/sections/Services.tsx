@@ -10,43 +10,12 @@ export default function ServicesSection(): React.JSX.Element {
     <div id="services" data-section="services">
         <SectionErrorBoundary name="services">
               <FeaturesTaggedCards
-          tag="Services"
-          title="Expert Barbering Care"
-          description="Our signature services designed to make you look and feel your best."
-          items={[
-            {
-              tag: "Popular",
-              title: "Klassic Kutzz",
-              description: "Precision haircut and beard shaping to suit your unique facial structure.",
-              primaryButton: {
-                text: "Learn More",
-                href: "#",
-              },
-              imageSrc: "https://storage.googleapis.com/webild/default/no-image.jpg?id=02ay32",
-            },
-            {
-              tag: "Specialty",
-              title: "Beard Sculpt & Styling",
-              description: "Keep your facial hair sharp and well-groomed with our detailed beard sculpting service.",
-              primaryButton: {
-                text: "Learn More",
-                href: "#",
-              },
-              imageSrc: "https://storage.googleapis.com/webild/default/no-image.jpg?id=enh8id",
-            },
-            {
-              tag: "Fresh",
-              title: "Hot Towel Shave",
-              description: "A refined shaving experience focused on skin health and ultimate smoothness.",
-              primaryButton: {
-                text: "Learn More",
-                href: "#",
-              },
-              imageSrc: "https://storage.googleapis.com/webild/default/no-image.jpg?id=oid848",
-            },
-          ]}
-          textAnimation="fade-blur"
-        />
+        tag="Services"
+        title="Expert Barbering Care"
+        description="Our signature services designed to make you look and feel your best."
+        items={[{"title":"Klassic Kutzz","tag":"Popular","description":"Precision haircut and beard shaping to suit your unique facial structure.","primaryButton":{"href":"#contact","text":"Book Service"},"imageSrc":"https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=800"},{"primaryButton":{"text":"Book Service","href":"#contact"},"imageSrc":"https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=800","title":"Beard Sculpt & Styling","description":"Keep your facial hair sharp and well-groomed with our detailed beard sculpting service.","tag":"Specialty"},{"description":"A refined shaving experience focused on skin health and ultimate smoothness.","tag":"Fresh","imageSrc":"https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&q=80&w=800","primaryButton":{"text":"Book Service","href":"#contact"},"title":"Hot Towel Shave"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );

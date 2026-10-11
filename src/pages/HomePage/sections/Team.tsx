@@ -10,18 +10,12 @@ export default function TeamSection(): React.JSX.Element {
     <div id="team" data-section="team">
         <SectionErrorBoundary name="team">
               <TeamOverlayCards
-          tag="Staff"
-          title="Meet the Expert"
-          description="Our professional team is here to provide the best service in the industry."
-          members={[
-            {
-              name: "Kenny Holmes",
-              role: "Master Barber",
-              imageSrc: "https://storage.googleapis.com/webild/default/no-image.jpg?id=5o9j8c",
-            },
-          ]}
-          textAnimation="fade"
-        />
+        tag="Staff"
+        title="Meet the Expert"
+        description="Our professional team is here to provide the best service in the industry."
+        members={[{"name":"Kenny Holmes","imageSrc":"https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=800","role":"Master Barber"}]}
+        textAnimation="fade"
+      />
         </SectionErrorBoundary>
       </div>
   );
