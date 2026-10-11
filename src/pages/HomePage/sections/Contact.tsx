@@ -13,7 +13,7 @@ export default function ContactSection(): React.JSX.Element {
           tag="Book Now"
           text="Ready for your best haircut yet? Secure your chair at Kenny's Kutzz today."
           primaryButton={{
-            text: "ALL DETAILS MATTER ",
+            text: "ALL DETAILS MATTER!! ",
             href: "tel:5550101",
           }}
           secondaryButton={{
